@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7595e2d9-1b6a-40f2-8de7-6fff25b629e1" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ChatbotController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChatbotController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,7 @@
       <workItem from="1687385060933" duration="32000" />
       <workItem from="1687385193289" duration="2421000" />
       <workItem from="1687437304725" duration="5665000" />
-      <workItem from="1687455716075" duration="2500000" />
+      <workItem from="1687455716075" duration="3188000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1687448822388</created>
@@ -115,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687448822388</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1687461084382</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687461084382</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
