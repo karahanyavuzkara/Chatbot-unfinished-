@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7595e2d9-1b6a-40f2-8de7-6fff25b629e1" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ChatbotController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChatbotController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "spring.configuration.checksum": "a70a2469a77b352ce7a46600efe642d2",
     "vue.rearranger.settings.migration": "true"
   }
@@ -105,7 +108,9 @@
       <workItem from="1687385060933" duration="32000" />
       <workItem from="1687385193289" duration="2421000" />
       <workItem from="1687437304725" duration="5665000" />
-      <workItem from="1687455716075" duration="3188000" />
+      <workItem from="1687455716075" duration="3211000" />
+      <workItem from="1687525412603" duration="3072000" />
+      <workItem from="1687643070521" duration="3288000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1687448822388</created>
@@ -121,11 +126,36 @@
       <option name="project" value="LOCAL" />
       <updated>1687461084382</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1687475642483</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687475642483</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1687475652250</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687475652250</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
