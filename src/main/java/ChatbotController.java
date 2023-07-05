@@ -7,12 +7,27 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.*;
-
+import org.telegram.telegrambots.bots.TelegramLongPollingBot;
+import org.telegram.telegrambots.meta.api.objects.Update;
 import java.util.List;
 import java.util.Properties;
 
-public class ChatbotController {
+public class ChatbotController extends TelegramLongPollingBot {
 
+    @Override
+    public void onUpdateReceived(Update update) {
+        //TODO
+    }
+    @Override
+    public String getBotUsername() {
+        //TODO
+        return "karahanzodiac_bot";
+    }
+    @Override
+    public String getBotToken() {
+        //TODO
+        return "6311821361:AAHb_oh-4K6oTvJ92drx3goT-wAWOrIxXKo";
+    }
     private StanfordCoreNLP coreNLP;
 
     public static void main(String[] args) {
@@ -31,7 +46,9 @@ public class ChatbotController {
         String response;
 
         // Generate response based on user input
-        if (userInput.toLowerCase().contains("hi") || userInput.toLowerCase().contains("hello")) {
+        if (userInput.toLowerCase().contains("hi") || userInput.toLowerCase().contains("hello")
+                || userInput.toLowerCase().contains("hey") || userInput.toLowerCase().contains("selam")
+        || userInput.toLowerCase().contains("merhaba")){
             response = "Hello! How can I assist you?";
         } else {
             response = "I'm sorry, I didn't understand your input.";
